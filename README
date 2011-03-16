@@ -3,5 +3,4 @@ To use it, put the sablecc-mode.el file in ~/.emacs.d/ and add the following lin
 (setq load-path
       (append (list nil "~/.emacs.d")
               load-path))
-
-(require 'sablecc-mode.el)
+(load "sablecc-mode")
