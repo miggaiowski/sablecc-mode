@@ -1,0 +1,7 @@
+To use it, put the sablecc-mode.el file in ~/.emacs.d/ and add the following lines to your .emacs:
+
+(setq load-path
+      (append (list nil "~/.emacs.d")
+              load-path))
+
+(require 'sablecc-mode.el)
