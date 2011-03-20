@@ -5,7 +5,7 @@
     ("\{\s*->[^\{\}]*\}" . 'font-lock-type-face) 
     ("\{[^\{\}]*\}" . 'font-lock-function-name-face) 
     ("\'[^\s]*\'" . 'font-lock-doc-face)
-    ("[\|=]" . 'font-lock-built-in-face)
+    ("[\|=]" . 'font-lock-builtin-face)
     ("[\*\+\?]" . 'font-lock-warning-face)
     ("^[a-z_]*\s*" . 'font-lock-variable-name-face))
   '(".grammar\\'" ".sablecc\\'") 
